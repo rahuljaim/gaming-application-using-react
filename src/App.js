@@ -69,6 +69,9 @@ export class App extends Component {
         textArray[inputTest.length - 1]
       ) {
         this.setState({ textDisplay: textArray[inputTest.length] });
+      } else {
+        //panelty
+        this.setState({ currentCount: this.state.currentCount + 0.5 });
       }
     } else {
       this.setState(

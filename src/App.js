@@ -27,7 +27,17 @@ export class App extends Component {
         });
       }
       if (this.state.count === 19) {
-        this.setState({ bool: false, bestTime: this.state.currentCount });
+        this.setState(
+          {
+            bool: false,
+            bestTime: this.state.currentCount,
+            textDisplay: "Success!",
+            play: !this.state.play,
+          },
+          () => {
+            this.state.play ? this.audio.play() : this.audio.pause();
+          }
+        );
         clearInterval(this.time);
       }
     }, 500);

@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/gaming-application-using-react/static/css/main.b11510ce.css",
+    "main.js": "/gaming-application-using-react/static/js/main.930a45a9.js",
+    "static/js/787.786fd1ee.chunk.js": "/gaming-application-using-react/static/js/787.786fd1ee.chunk.js",
+    "static/media/correctanswer.wav": "/gaming-application-using-react/static/media/correctanswer.c35664ce292f295a155c.wav",
+    "index.html": "/gaming-application-using-react/index.html",
+    "main.b11510ce.css.map": "/gaming-application-using-react/static/css/main.b11510ce.css.map",
+    "main.930a45a9.js.map": "/gaming-application-using-react/static/js/main.930a45a9.js.map",
+    "787.786fd1ee.chunk.js.map": "/gaming-application-using-react/static/js/787.786fd1ee.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b11510ce.css",
+    "static/js/main.930a45a9.js"
+  ]
+}
